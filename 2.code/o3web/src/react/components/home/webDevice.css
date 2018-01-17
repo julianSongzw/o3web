@@ -1,0 +1,43 @@
+.body {
+    height: 50%;
+    font-size: 12px;
+    color: black;
+    overflow-y: auto;
+}
+
+.body>header {
+    color: rgb(37, 155, 36);
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.body>nav {
+    padding: 10px 0;
+    background: rgb(217, 224, 209);
+    border-bottom: 1px solid gray;
+}
+
+.body>nav>span,
+.body li>span {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+.body li {
+    padding: 9px 0;
+    border-bottom: 1px solid gray;
+    user-select: none;
+}
+
+.body span>img {
+    width: 20%;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.body li>span:last-child img {
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "sys_dic_type",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "type_name": {
+      "type": "String"
+    },
+    "type_code": {
+      "type": "String"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

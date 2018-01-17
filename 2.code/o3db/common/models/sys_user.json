@@ -1,0 +1,42 @@
+{
+  "name": "sys_user",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "area":"String",
+    "city":"String",
+    "flag":"number",
+    "username":"String",
+    "password": "String",
+    "latest_login_time":"number",
+    "total_login_counts":"number",
+    "name":"String",
+    "sex":"String",
+    "duties":"String",
+    "tel":"String",
+    "email":"String",
+    "add":"String",
+    "imgUrl":"String",
+    "role":"String"
+  },
+  "validations": [],
+  "relations": {
+    "area_info":{
+      "type": "belongsTo",
+      "model": "b_area",
+      "foreignKey": "area",
+      "primaryKey": "area_code"
+    },
+    "city_info":{
+      "type": "belongsTo",
+      "model": "b_area",
+      "foreignKey": "city",
+      "primaryKey": "area_code"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,17 @@
+.correlation{
+
+}
+.correlation>header{
+    padding-top: 10px;
+}
+.span{
+    margin: 0 10px;
+}
+.correlation content{
+    margin:10px 10px 0 10px;
+    border-top:1px solid gray;
+    display: block;
+}
+.aside{
+    margin-top: 10px;
+}

@@ -1,0 +1,35 @@
+{
+  "name": "color",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": [
+        "count",
+        "find",
+        "list",
+        "create",
+        "destroyAll",
+        "updateAll",
+        "replaceById"
+      ]
+    }
+  ],
+  "methods": {}
+}

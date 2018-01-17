@@ -1,0 +1,216 @@
+.right {
+    width: 67%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.button-group {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.button-group .button {
+    height: 28px;
+    line-height: 28px;
+    background-color: #0D9BF2;
+    color: #FFF;
+    border: 0;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.button-group .inputtext {
+    height: 26px;
+    line-height: 26px;
+    border: 1px;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+
+/*
+.tip {
+   position: absolute;
+   bottom: 30px;
+   right: 10px;
+   background-color: #FFF;
+   text-align: center;
+   border: 1px solid #ccc;
+   line-height: 30px;
+   border-radius: 3px;
+   padding: 0 5px;
+   font-size: 12px;
+}
+*/
+
+#tip {
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    font-size: 12px;
+    right: 10px;
+    top: 20px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    line-height: 30px;
+}
+
+
+/*
+#tip input[type='button'] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #0D9BF2;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 3px;
+	outline: none;
+	border: 0;
+}
+*/
+
+.amap-info-content {
+    font-size: 12px;
+}
+
+#myPageTop {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    padding: 6px;
+    font-family: "Microsoft Yahei", "΢���ź�", "Pinghei";
+    font-size: 14px;
+}
+
+#myPageTop label {
+    margin: 0 20px 0 0;
+    color: #666666;
+    font-weight: normal;
+}
+
+#myPageTop input {
+    width: 170px;
+}
+
+#myPageTop .column2 {
+    padding-left: 25px;
+}
+
+.nationalSiteStyle {
+    display: inline-block !important;
+    position: relative;
+    top: -74px;
+    margin-left: -30px;
+    font-size: 13px;
+    min-width: 100px;
+    padding: 4px 10px;
+    border: 1px solid #586274;
+    background: #586274;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFF;
+    line-height: 130%;
+    text-align: center;
+}
+
+.nationalSiteStyle:before {
+    content: "";
+    position: absolute;
+    right: 36%;
+    bottom: -50%;
+    width: 0;
+    height: 0;
+    border-top: 12px solid #586274;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+}
+
+.sitBox {
+    display: inline-block !important;
+    position: relative;
+    right: 20px;
+    min-width: 100px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    /* box-shadow: 0 12px 24px 0 rgba(7, 17, 27, .2); */
+}
+
+.sitBox::before {
+    content: "";
+    position: absolute;
+    right: 50%;
+    bottom: -24%;
+    width: 0;
+    height: 0;
+    border-top: 24px solid #f0f0f0;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+}
+
+.panelTitle {
+    text-align: center;
+    padding: 4px 20px;
+    background: #586274;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
+}
+
+.panelContent {
+    text-align: center;
+    padding: 10px 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #333;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.labelName {
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 2px;
+}
+
+.inforWindow {
+    position: absolute;
+}

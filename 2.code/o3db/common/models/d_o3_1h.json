@@ -1,0 +1,48 @@
+{
+  "name": "d_o3_1h",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "scode":"String",
+    "device_code":"String",
+    "time_cj":{
+      "type":"number",
+      "index":true
+    },
+    "time_js":"number",
+    "rtype":"number",
+    "degree_yj":"number",
+    "degree_fwj":"number",
+    "pix":"number",
+    "distance":"number",
+    "atype":"number"
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW",
+      "property": [
+        "count",
+        "find",
+        "list",
+        "create",
+        "destroyAll",
+        "updateAll",
+        "replaceById"
+      ]
+    }
+  ],
+  "methods": {}
+}

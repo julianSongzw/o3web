@@ -1,0 +1,52 @@
+.singleQcomTopDiv{
+    margin-top: 20px;
+}
+.singleQcomTopForm {
+    left: 50%;
+    margin-left: 20px;
+}
+.data{
+    width: 90%;
+    height: 500px;
+    margin: 0px auto;
+}
+.low{
+    width: 90%;
+    height: 500px;
+    margin-left:6%;
+    top:40px;
+}
+.all{
+    display: inline-block;
+    height: 500px;
+}
+.span{
+    vertical-align:text-bottom
+}
+.center{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin-top: 250px;
+    float: left;
+   /* margin-left: 10px;*/
+    position: relative;
+    left: 99px;
+    color:gray;
+    font-size: 15px;
+}
+
+.selectleft{
+    width:100px;
+    margin-right:10px
+}
+.selectright{
+    width:100px;
+    margin-left:10px
+}
+
+.myTable{
+    border: 1px solid #e9e9e9;
+    border-right: 0;
+    border-bottom: 0;
+}

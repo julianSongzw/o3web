@@ -1,0 +1,29 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "filename": "f:/programm/huanbao/logs/dbLog/",
+      "pattern": "yyyyMMddhh.txt",
+      "absolute": true,
+      "alwaysIncludePattern": true,
+      "category": "requestLog"
+    },
+    {
+      "type": "dateFile",
+      "filename": "f:/programm/huanbao/logs/errorLog/",
+      "pattern": "yyyyMMddhh.txt",
+      "absolute": true,
+      "alwaysIncludePattern": true,
+      "category": "errorLog"
+    },
+    {
+      "type": "dateFile",
+      "filename": "f:/programm/huanbao/logs/sjobLog/",
+      "pattern": "yyyyMMddhh.txt",
+      "absolute": true,
+      "alwaysIncludePattern": true,
+      "category": "sjobLog"
+    }
+  ],
+  "levels":{ "logInfo": "DEBUG"}
+}

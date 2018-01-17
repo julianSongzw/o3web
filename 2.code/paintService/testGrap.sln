@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testGrap", "testGrap\testGrap.csproj", "{16FC93CA-F67B-43D8-9F36-171DE8E8A76C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LidarFileAndData", "LidarFileAndData\LidarFileAndData.csproj", "{2DA60288-14DF-42E4-800F-B395F218F63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintService", "PaintService\PaintService.csproj", "{F0CEEABB-FB02-4A01-A8AC-31A02A066ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintServiceAccess", "PaintServiceAccess\PaintServiceAccess.csproj", "{BBFE83B2-3230-4D59-8F48-9D89451734CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16FC93CA-F67B-43D8-9F36-171DE8E8A76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16FC93CA-F67B-43D8-9F36-171DE8E8A76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16FC93CA-F67B-43D8-9F36-171DE8E8A76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16FC93CA-F67B-43D8-9F36-171DE8E8A76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA60288-14DF-42E4-800F-B395F218F63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA60288-14DF-42E4-800F-B395F218F63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA60288-14DF-42E4-800F-B395F218F63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA60288-14DF-42E4-800F-B395F218F63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CEEABB-FB02-4A01-A8AC-31A02A066ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CEEABB-FB02-4A01-A8AC-31A02A066ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CEEABB-FB02-4A01-A8AC-31A02A066ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CEEABB-FB02-4A01-A8AC-31A02A066ADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBFE83B2-3230-4D59-8F48-9D89451734CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFE83B2-3230-4D59-8F48-9D89451734CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFE83B2-3230-4D59-8F48-9D89451734CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFE83B2-3230-4D59-8F48-9D89451734CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

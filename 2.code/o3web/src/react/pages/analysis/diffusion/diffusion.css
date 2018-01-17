@@ -1,0 +1,66 @@
+
+.toolBar{
+    margin-top: 20px;
+    width:100%;
+    height:20px;
+    text-align: center;
+}
+.toolBar:after{
+
+}
+.toolBar>div{
+    display: inline-block;
+    width:4%;
+    height:100%;
+    position: relative;
+}
+.toolBar>div:first-child{
+    width:2%;
+}
+.toolBar>div:first-child .road{
+    display: none;
+}
+.toolBar>div>.road{
+    width: 100%;
+    height: 50%;
+    border:1px solid lightgray;
+    background: white;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: -1px;
+}
+.toolBar>div>.cir{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border:1px solid lightgray;
+    background: white;
+    border-radius: 50%;
+}
+.toolBar>div.moved>.road{
+    background: rgb(186,186,186);
+    border:1px solid rgb(186,186,186);
+}
+.toolBar>div.moved>.cir{
+    background: rgb(133,199,233);
+    border:1px solid rgb(133,199,233);
+}
+
+.toolBar>div.moveing>.cir{
+    background: rgb(14,141,206);
+    border:1px solid  rgb(14,141,206);
+}
+.toolBar>div.moveing>.road{
+    background: rgb(186,186,186);
+    border:1px solid rgb(186,186,186);
+}
+
+.font{
+    position: absolute;
+    right:-2px;
+    bottom:-20px;
+}

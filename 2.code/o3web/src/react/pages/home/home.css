@@ -1,0 +1,331 @@
+.h100 {
+    height: 100%;
+    position: relative;
+    overflow-y: hidden;
+}
+
+.left {
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    background: rgb(245, 245, 245);
+    border: 1px solid gray;
+}
+
+.aside {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    z-index: 9999;
+}
+
+.aside button {
+    width: 80px;
+    display: block;
+    border: 1px solid gray;
+    padding: 8px 16px;
+    background: rgba(255, 255, 255, .8);
+    color: gray;
+    cursor: pointer;
+}
+
+.aside button.selected {
+    background: rgba(0, 0, 0, .8);
+}
+
+.timeBarBox {
+    position: fixed;
+    width: 67%;
+    bottom: 0;
+    right: 0;
+}
+
+.colorLegend {
+    position: fixed;
+    height: 40px;
+    bottom: 300px;
+    right: 0;
+}
+
+.colorLegend>ul {
+    margin: 0;
+    list-style: none;
+    color: #ccc;
+    overflow: hidden;
+    padding-left: 13px;
+    font-size: 12px;
+    background: rgba(2, 1, 1, 0.6);
+}
+
+.colorLegend li {
+    margin-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+}
+
+.colorLegend>ul span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+}
+
+.listBggray {
+    background: #353535;
+}
+
+.listBgRed {
+    background: #00FF00;
+}
+
+.listBgYellow {
+    background: #FFFF00;
+}
+
+.listBgQDWR {
+    background: #FF7E00;
+}
+
+.listBgDeepRed {
+    background: #FF0000;
+}
+
+.listBgzhong {
+    background: #99004C;
+}
+
+.listBgYanzhong {
+    background: #7E0023;
+}
+
+.tanchuang_device {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tanchuang_device div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 31.6%;
+    /* min-width: 130px; */
+    background: rgb(241, 241, 241);
+    padding: 4px 6px;
+    margin: 4px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 4px;
+}
+
+.tanchuang_device div>span {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.tanchuang_device div>label {
+    color: #959595;
+}
+
+.tanchuang_device .top>span {
+    margin-left: 0;
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    font-weight: 600;
+}
+
+.tanchuang_device .top>img {
+    float: right;
+    margin-top: 2px;
+}
+
+.tanchuang_device article {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tanchuang_device article>header {
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    /* width: 480px; */
+    flex-wrap: wrap;
+    font-size: 14px;
+    color: #404040;
+}
+
+.tanchuang_device article>header>div {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 31.6%;
+    /* min-width: 130px; */
+    background: rgb(241, 241, 241);
+    padding: 4px 6px;
+    margin: 4px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 4px;
+}
+
+.tanchuang_device article>header>div>span {
+    font-weight: 600 !important;
+}
+
+.tanchuang_device article>header>div>label {
+    color: #959595;
+}
+
+.tanchuang_device article>section>div {
+    display: inline-block;
+    width: 31.6%;
+    margin-top: 10px;
+}
+
+.tanchuang_device article>section>div>span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+
+.tanchuang_device article>section>div>span:first-child {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.tanchuang_device article>footer {
+    margin-top: 16px;
+}
+
+.tanchuang_device article>footer>div {
+    font-size: 14px;
+    color: rgb(40, 140, 227);
+    float: left;
+    width: 120px;
+    line-height: 25px;
+    margin-right: 3px;
+}
+
+.tanchuang_device .icon-shexiangtouxuanzhong:before {
+    content: "\e619";
+}
+
+.tanchuang_device .time {
+    line-height: 25px;
+    margin-left: 1%;
+    padding: 4px 6px;
+    font-size: 12px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 4px;
+    color: #959595;
+    background-color: rgb(241, 241, 241);
+}
+
+.tanchuang_device a {
+    color: rgb(40, 140, 227);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tanchuang_device aside {
+    width: 33%;
+    display: inline-block;
+}
+
+.tanchuang_device aside>img {
+    width: 100%;
+    height: 100%;
+}
+
+.infoLi {}
+
+.infoLi:last-child {
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.infoLi>div {
+    border: 1px solid #e9e9e9;
+    width: 50%;
+    display: inline-block;
+    border-bottom: 0;
+    padding: 5px 0 5px 15px;
+}
+
+.infoLi>div:last-child {
+    border-left: 0;
+}
+
+.ant-modal-body {
+    padding: 10px;
+}
+
+.satelliteCtl {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.amappancontrol {
+    width: 52px;
+    height: 52px;
+    background: url(../../../public/images/map_view.png) 0 -140px;
+}
+
+.amappancontrol>div {
+    position: absolute;
+    cursor: pointer;
+    width: 12px;
+    height: 18px;
+}
+
+.amappanleft {
+    top: 17px;
+    left: 8px;
+}
+
+.amappancontrol .amappantop {
+    left: 17px;
+    top: 8px;
+    width: 18px;
+    height: 12px;
+}
+
+.amappanright {
+    top: 17px;
+    right: 8px;
+}
+
+.amappancontrol .amappanbottom {
+    left: 17px;
+    bottom: 8px;
+    width: 18px;
+    height: 12px;
+}
+
+.amappanbottom:hover,
+.amappanleft:hover,
+.amappanright:hover,
+.amappantop:hover {
+    background: url(../../../public/images/map_view.png)
+}
+
+.amappanleft:hover {
+    background-position: -52px -110px
+}
+
+.amappantop:hover {
+    background-position: -70px -112px
+}
+
+.amappanright:hover {
+    background-position: -61px -110px
+}
+
+.amappanbottom:hover {
+    background-position: -84px -110px
+}

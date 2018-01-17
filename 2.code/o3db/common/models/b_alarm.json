@@ -1,0 +1,36 @@
+{
+  "name": "b_alarm",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "factor":"String",
+    "minv":"String",
+    "maxv":"String",
+    "dur":"String",
+    "city":"String",
+    "area":"String",
+    "avg":"String",
+    "per100":"String",
+    "season":"number"
+  },
+  "validations": [],
+  "relations": {
+    "area_info":{
+      "type": "belongsTo",
+      "model": "b_area",
+      "foreignKey": "area",
+      "primaryKey": "area_code"
+    },
+    "city_info":{
+      "type": "belongsTo",
+      "model": "b_area",
+      "foreignKey": "city",
+      "primaryKey": "area_code"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

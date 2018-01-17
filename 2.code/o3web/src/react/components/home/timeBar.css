@@ -1,0 +1,105 @@
+.timeBox {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(2, 1, 1, 0.6);
+    cursor: pointer;
+}
+
+.timeLine {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #ddd;
+}
+
+.timeDate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 34px;
+    color: #ccc;
+}
+
+.time1 {
+    height: inherit;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}
+
+.time2 {
+    height: inherit;
+    width: 100%;
+    align-self: center;
+    text-align: center;
+}
+
+.deliver {
+    height: 40px;
+    border-left: 1px solid #ccc;
+}
+
+.timeNumber {
+    display: flex;
+    justify-content: space-between;
+    height: 14px;
+    border-bottom: 1px solid #ccc;
+    font-size: 2px;
+}
+
+.timeNumber>span {
+    color: #c0c0c0;
+}
+
+.timeHour {
+    height: 20px;
+    line-height: 20px;
+}
+
+.minFlag {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.minFlag>span {
+    height: 6px;
+    border-left: 1px solid #fff;
+}
+
+.flidBarWidth {
+    height: 6px;
+    width: 100%;
+    position: relative;
+    background: green;
+}
+
+.timeTip {
+    display: inline-block !important;
+    position: absolute;
+    top: -36px;
+    right: -28px;
+    font-size: 13px;
+    min-width: 40px;
+    padding: 4px 10px;
+    background: rgba(51, 51, 51, .7);
+    border-radius: 4px 4px 4px 4px;
+    color: #FFF;
+    line-height: 130%;
+    text-align: center;
+}
+
+.timeTip:before {
+    content: "";
+    position: absolute;
+    right: 30%;
+    bottom: -50%;
+    width: 0;
+    height: 0;
+    border-top: 12px solid rgba(51, 51, 51, .7);
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+}

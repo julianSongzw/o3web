@@ -1,0 +1,12 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "filename": "f:/programm/huanbao/logs/",
+      "pattern": "sjobLog.txt",
+      "absolute": true,
+      "alwaysIncludePattern": true,
+      "category": "sjobLog"
+    } ],
+  "levels":{ "logInfo": "DEBUG"}
+}

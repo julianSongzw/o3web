@@ -1,0 +1,15 @@
+{
+  "name": "factor_related",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": {}
+}

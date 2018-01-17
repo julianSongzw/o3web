@@ -1,0 +1,21 @@
+{
+  "name": "o_control",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "code":"String",
+    "ctype":"String",
+    "ctime":"number",
+    "user":"String",
+    "result":"String",
+    "remark":"String"
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": {}
+}

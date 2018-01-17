@@ -1,0 +1,31 @@
+{
+  "name": "d_tp",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "scode":"String",
+    "device_code":"String",
+    "time_cj":"number",
+    "time_js":"number",
+    "rtype":"number",
+    "degree_yj":"number",
+    "degree_fwj":"number",
+    "pix":"number",
+    "distance":"number",
+    "atype":"number"
+  },
+  "validations": [],
+  "relations": {
+    "device":{
+      "type": "belongsTo",
+      "model": "o_device",
+      "foreignKey": "device_code",
+      "primaryKey": "code"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

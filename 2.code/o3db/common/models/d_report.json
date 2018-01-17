@@ -1,0 +1,38 @@
+{
+  "name": "d_report",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "code":"String",
+    "name":"String",
+    "rtype":"String",
+    "rtime":"number",
+    "user":"String",
+    "file_name":"String",
+    "file_url":"String",
+    "upload":"number",
+    "remark":"String",
+    "area":"String",
+    "city":"String"
+  },
+  "validations": [],
+  "relations": {
+    "city_info":{
+      "type": "belongsTo",
+      "model": "b_area",
+      "foreignKey": "city",
+      "primaryKey": "area_code"
+    },
+    "area_info":{
+      "type": "belongsTo",
+      "model": "b_area",
+      "foreignKey": "area",
+      "primaryKey": "area_code"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,25 @@
+{
+  "name": "b_area",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "area_code":"String",
+    "area_name":"String",
+    "parent_area_code":"String",
+    "level":"number"
+  },
+  "validations": [],
+  "relations": {
+    "sites":{
+      "type": "hasMany",
+      "model": "b_site",
+      "foreignKey": "area",
+      "primaryKey": "area_code"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,196 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mongods",
+    "public": false,
+    "relations": {
+      "AccessTokens": {
+        "type": "hasMany",
+        "model": "AccessToken",
+        "foreignKey": "userId",
+        "options": {
+          "disableInclude": true
+        }
+      }
+    }
+  },
+  "AccessToken": {
+    "dataSource": "mongods",
+    "public": false,
+    "relations": {
+      "User": {
+        "type": "belongsTo",
+        "model": "user",
+        "foreignKey": "userId"
+      }
+    }
+  },
+  "ACL": {
+    "dataSource": "mongods",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongods",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "mongods",
+    "public": false
+  },
+  "sys_user": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "sys_log": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "sys_dic": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "sys_dic_type": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "b_area": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "b_factor": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "b_site": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "b_alarm": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "o_device": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "o_history": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "o_control": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "o_alarm": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_o3radar": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_pcolor": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_xg": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_tp": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "sys_role": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_report": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "line_chart": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_o3_1h": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_o3_8h": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_o3_24h": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "sys_platform": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "tong_huan": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_o3_m": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "statistic": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "container": {
+    "dataSource": "storage",
+    "public": false
+  },
+  "factor_related": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_air": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_weather": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_o3_w": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "time_to_time": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "color": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "wind_rose": {
+    "dataSource": "mongods",
+    "public": true
+  },
+  "d_cone": {
+    "dataSource": "mongods",
+    "public": true
+  }
+}

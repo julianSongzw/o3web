@@ -1,0 +1,9 @@
+.rightButton {
+    /* width: 100%; */
+    text-align: right;
+    margin: 6px;
+}
+
+.addButton {
+    margin-right: 20px;
+}

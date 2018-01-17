@@ -1,0 +1,20 @@
+{
+  "name": "o_history",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "code":"String",
+    "state":"number",
+    "time_ks":"number",
+    "gtype":"String",
+    "remark":"String"
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": {}
+}

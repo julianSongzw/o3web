@@ -1,0 +1,21 @@
+{
+  "name": "sys_platform",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "title":"String",
+    "english_title":"String",
+    "is_english":"String",
+    "version":"String",
+    "right":"String",
+    "logo":"String",
+    "logo_url":"String"
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

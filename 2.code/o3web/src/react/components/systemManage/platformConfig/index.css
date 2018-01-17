@@ -1,0 +1,28 @@
+.platHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    padding-top: 20px;
+    letter-spacing: 6px;
+}
+
+.formContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: column;
+}
+
+.divButton {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+}
+
+.divButton button {
+    width: 10%;
+    margin: 0 10px;
+}

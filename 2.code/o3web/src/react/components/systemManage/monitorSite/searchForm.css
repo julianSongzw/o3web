@@ -1,0 +1,10 @@
+.serchPanel {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}

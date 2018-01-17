@@ -1,0 +1,21 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "filename": "F:/programm/huanbao/logs/sjobLog/",
+      "pattern": "yyyyMMddhh.txt",
+      "absolute": true,
+      "alwaysIncludePattern": true,
+      "category": "logAir"
+    },
+    {
+      "type": "dateFile",
+      "filename": "f:/programm/huanbao/logs/webSocketLog/",
+      "pattern": "yyyyMMddhh.txt",
+      "absolute": true,
+      "alwaysIncludePattern": true,
+      "category": "webPush"
+    }
+  ],
+  "levels":{ "logInfo": "DEBUG"}
+}

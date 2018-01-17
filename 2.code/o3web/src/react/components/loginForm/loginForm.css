@@ -1,0 +1,47 @@
+.formLogin {
+    position: absolute;
+    border-radius: 8px;
+    left: 50%;
+    top: 50%;
+    background: floralwhite;
+    width: 600px;
+    height: 360px;
+    margin-left: -300px;
+    margin-top: -180px;
+    opacity: 0.9;
+}
+
+.loginForm {
+    position: relative;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+    opacity: 1;
+}
+
+.loginFormForgot {
+    float: right;
+}
+
+.loginFormButton {
+    width: 100%;
+}
+
+.header {
+    height: 160px;
+    display: flex;
+    justify-content: Center;
+    align-items: Center;
+}
+
+.hImg {
+    width: 100px;
+}
+
+.hTitle {
+    width: 400px;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 2px 2px black;
+    margin-left: 20px;
+}

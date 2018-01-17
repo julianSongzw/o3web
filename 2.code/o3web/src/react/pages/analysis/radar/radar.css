@@ -1,0 +1,30 @@
+.heightBar{
+    position: absolute;
+    left: 28.8%;
+    top: 21px;
+}
+.heightL{
+    height: 432px;
+    position: absolute;
+    width: 1px;
+    background: gray;
+    left: 28.8%;
+    top: 33px;
+}
+
+.heightBar p{
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 36px;
+}
+.heightBar span{
+    display: inline-block;
+    width: 10px;
+    height:1px;
+    background: gray;
+}
+.heightBar n{
+    position: relative;
+    top: 4px;
+}

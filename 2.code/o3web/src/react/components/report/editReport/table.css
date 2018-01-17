@@ -1,0 +1,12 @@
+.rightButton {
+    /* width: 100%; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    margin: 6px;
+}
+
+.addButton {
+    margin-right: 20px;
+}

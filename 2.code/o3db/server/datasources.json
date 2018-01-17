@@ -1,0 +1,21 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongods": {
+    "host": "192.168.10.30",
+    "port": 27017,
+    "url": "mongodb://admin:admin123456@192.168.10.43:40000/o3db?ConnectTimeout=30000;ConnectionLifetime=300000;MinimumPoolSize=8;MaximumPoolSize=256;Pooled=true",
+    "database": "o3db",
+    "name": "mongods",
+    "connector": "mongodb"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "f:/programm/huanbao/fsWeb/public",
+    "maxFileSize": "52428800"
+  }
+}

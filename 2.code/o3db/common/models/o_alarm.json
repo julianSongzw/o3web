@@ -1,0 +1,21 @@
+{
+  "name": "o_alarm",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "code":"String",
+    "factor":"String",
+    "fvlaue":"String",
+    "atype":"String",
+    "atime":"number",
+    "remark":"String"
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,51 @@
+{
+  "name": "b_site",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "code":"String",
+    "name":"String",
+    "type":"String",
+    "city":"String",
+    "area":"String",
+    "longitude":"String",
+    "latitude":"String",
+    "user":"String",
+    "remark":"String",
+    "factor":"String",
+    "is_online":"String",
+    "upTime":"number"
+  },
+  "validations": [],
+  "relations": {
+    "city_info":{
+      "type": "belongsTo",
+      "model": "b_area",
+      "foreignKey": "city",
+      "primaryKey": "area_code"
+    },
+    "userInfo":{
+      "type": "belongsTo",
+      "model": "sys_user",
+      "foreignKey": "user",
+      "primaryKey": "id"
+    },
+    "area_info":{
+      "type": "belongsTo",
+      "model": "b_area",
+      "foreignKey": "area",
+      "primaryKey": "area_code"
+    },
+    "device":{
+      "type": "hasMany",
+      "model": "o_device",
+      "foreignKey": "site",
+      "primaryKey": "code"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

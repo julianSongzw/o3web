@@ -1,0 +1,36 @@
+{
+  "name": "sys_dic",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "dtype": {
+      "type": "String"
+    },
+    "name": {
+      "type": "String"
+    },
+    "value": {
+      "type": "String"
+    },
+    "order": {
+      "type": "number"
+    },
+    "ps": {
+      "type": "String"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "dic_type":{
+      "type": "belongsTo",
+      "model": "sys_dic_type",
+      "foreignKey": "dtype",
+      "primaryKey": "type_code"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

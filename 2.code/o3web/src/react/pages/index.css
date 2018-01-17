@@ -1,0 +1,44 @@
+:global .ant-menu-horizontal>.ant-menu-item>a {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+ :global .ant-menu-horizontal>.ant-menu-item-selected {
+    border-bottom: 2px solid #fff !important;
+    color: #fff !important;
+    background: rgba(240, 240, 240, 0.2);
+    border-radius: 4px;
+}
+
+:global .ant-menu-horizontal>.ant-menu-item:hover {
+    border-bottom: 2px solid #fff !important;
+    color: #fff !important;
+    background: rgba(240, 240, 240, 0.1);
+    border-radius: 4px;
+}
+
+:global .ant-menu-horizontal>.ant-menu-item-active {
+    background-color: #49a9ee;
+}
+
+:global .headMenu>.ant-menu-horizontal {
+    border-bottom: 1px solid rgb(74, 141, 230) !important;
+}
+
+:global .ant-layout.ant-layout-has-sider {
+    flex-direction: column !important;
+}
+
+:global .menu .ant-menu-dark.ant-menu-inline .ant-menu-item-selected {
+    border-left: 2px solid #fff !important;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background-color: #69a2f9 !important;
+}
+
+
+/* :global .menu .ant-menu-dark.ant-menu-inline .ant-menu-item:hover {
+    background-color: #69a2f9;
+} */

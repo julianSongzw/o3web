@@ -1,0 +1,60 @@
+{
+  "name": "o_device",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "allowEternalTokens": false
+  },
+  "properties": {
+    "code":"String",
+    "name":"String",
+    "otype":"String",
+    "site":"String",
+    "spec":"String",
+    "time_az":"number",
+    "longitude":"String",
+    "latitude":"String",
+    "factor":"String",
+    "ip":"String",
+    "port":"String",
+    "time":"String",
+    "slow":"String",
+    "scan":"number",
+    "scan_dis":"String",
+    "scan_pix":"String",
+    "union_gk":"String",
+    "union_sk":"String",
+    "union_cg":"String",
+    "state":"number",
+    "angular":"String"
+  },
+  "validations": [],
+  "relations": {
+    "site_info":{
+      "type": "belongsTo",
+      "model": "b_site",
+      "foreignKey": "site",
+      "primaryKey": "code"
+    },
+    "union_gk_info":{
+      "type": "belongsTo",
+      "model": "b_site",
+      "foreignKey": "union_gk",
+      "primaryKey": "code"
+    },
+    "union_sk_info":{
+      "type": "belongsTo",
+      "model": "b_site",
+      "foreignKey": "union_sk",
+      "primaryKey": "code"
+    },
+    "union_cg_info":{
+      "type": "belongsTo",
+      "model": "b_site",
+      "foreignKey": "union_cg",
+      "primaryKey": "code"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
